@@ -1,0 +1,10 @@
+{
+  "name": "lal-financial-discovery-core",
+  "version": "1.1.0",
+  "description": "Financial Discovery — Core — Complete financial discovery pipeline: intake through ED chart, Rule 12.285 compliance, QC gates. Florida family law. Built inside a real, active family law firm.",
+  "author": {
+    "name": "Legal Authority Lab",
+    "url": "https://legalauthoritylab.com"
+  },
+  "license": "Proprietary — see LICENSE"
+}

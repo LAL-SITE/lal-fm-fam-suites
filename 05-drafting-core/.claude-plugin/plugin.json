@@ -1,0 +1,10 @@
+{
+  "name": "lal-drafting-core",
+  "version": "1.1.0",
+  "description": "Drafting — Core — Notices, basic motions, ancillary proposed orders, responses, pre-filing compliance checks, AI disclosure block, court formatting standard. Florida family law. Built inside a real, active family law firm.",
+  "author": {
+    "name": "Legal Authority Lab",
+    "url": "https://legalauthoritylab.com"
+  },
+  "license": "Proprietary — see LICENSE"
+}

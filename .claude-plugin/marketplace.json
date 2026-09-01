@@ -1,0 +1,49 @@
+{
+  "name": "legal-authority-lab-fm",
+  "owner": {
+    "name": "Legal Authority Lab",
+    "url": "https://legalauthoritylab.com"
+  },
+  "metadata": {
+    "description": "Legal Authority Lab — Florida family law skill suites. Core Foundation ships with every package; each numbered suite is a separately purchased plugin.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "lal-core-foundation",
+      "source": "./00-core-foundation",
+      "version": "1.1.0",
+      "description": "Core Foundation — Foundation layer every suite depends on: installer, file connector, start-case, command center, brand kit, correspondence, caselaw protocol, help, file organizer, judicial procedures, Florida ethics. Florida family law. Built inside a real, active family law firm."
+    },
+    {
+      "name": "lal-financial-discovery-core",
+      "source": "./01-financial-discovery-core",
+      "version": "1.1.0",
+      "description": "Financial Discovery — Core — Complete financial discovery pipeline: intake through ED chart, Rule 12.285 compliance, QC gates. Florida family law. Built inside a real, active family law firm."
+    },
+    {
+      "name": "lal-financial-discovery-advanced",
+      "source": "./02-financial-discovery-advanced",
+      "version": "1.1.0",
+      "description": "Financial Discovery — Advanced — Advanced income analysis and contested discovery: interrogatories, RFPs, RFAs, subpoenas, motions to compel, CS worksheet. Florida family law. Built inside a real, active family law firm."
+    },
+    {
+      "name": "lal-mediation-advocate",
+      "source": "./03-mediation-advocate",
+      "version": "1.1.0",
+      "description": "Mediation & Settlement — Advocate — Advocate-side mediation: prep engine (ED chart, scenarios, proposals, mediator summary), live session command center, MSA drafting, parenting plan. Florida family law. Built inside a real, active family law firm."
+    },
+    {
+      "name": "lal-drafting-core",
+      "source": "./05-drafting-core",
+      "version": "1.1.0",
+      "description": "Drafting — Core — Notices, basic motions, ancillary proposed orders, responses, pre-filing compliance checks, AI disclosure block, court formatting standard. Florida family law. Built inside a real, active family law firm."
+    },
+    {
+      "name": "lal-roadmap-case-management",
+      "source": "./09-roadmap-case-management",
+      "version": "1.1.0",
+      "description": "Roadmap & Case Management — Versioned case roadmap, controlled case closing with attorney-approval hard stop, branded case memo. Florida family law. Built inside a real, active family law firm."
+    }
+  ]
+}
