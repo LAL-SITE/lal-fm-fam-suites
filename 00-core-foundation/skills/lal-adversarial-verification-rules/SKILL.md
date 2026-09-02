@@ -39,6 +39,17 @@ An independent pass IS: a **separate agent invocation** (via the Agent tool, or 
 
 Any mismatch is treated as a fabrication until proven otherwise — not smoothed over, not resolved by picking whichever value "sounds right."
 
+**Where the source documents come from.** This skill never locates files itself and never
+invents a path, folder, or connector. Like every other skill in this suite, it reaches matter
+files only through `lal-file-connector` — Operation 1 to resolve the matter root, Operation 3
+to read a document. The independent-pass agent is handed that same resolved root (or the
+specific documents Operation 3 already returned) and re-reads from there. Two things this is
+**not**: it is never a re-read of anything cached in the first pass's own conversation context
+(that is not independent — see above), and it is never pulled from this firm's GitHub suite
+repository. No client data — no party name, SSN, dollar figure, or matter document — is ever
+stored in that repository or any other LAL marketplace repo; those repos ship skill code
+only. Source documents live exclusively in the firm's own bound storage.
+
 ## Rule 3 — Findings and blocking
 
 Report independent-verification findings in the same severity language the firm's QC gates already use:
