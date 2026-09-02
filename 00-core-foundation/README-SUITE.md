@@ -2,14 +2,14 @@
 
 **Suite:** Core Foundation  
 **List price:** free with every purchase  
-**Version:** 1.0.0  
+**Version:** 1.2.0  
 **Publisher:** Legal Authority Lab — legalauthoritylab.com
 
 Foundation layer every suite depends on: installer, file connector, start-case, command center, brand kit, correspondence, caselaw protocol, help, file organizer, judicial procedures, Florida ethics.
 
 ## Skills included
 
-Seventeen skills. Every reference file a skill reads ships bundled inside that skill's own
+Eighteen skills. Every reference file a skill reads ships bundled inside that skill's own
 `references/` folder — nothing is fetched at runtime except the public caselaw authority
 library and the live judicial-procedure searches.
 
@@ -63,6 +63,10 @@ library and the live judicial-procedure searches.
   OCR-verified.
 - **`lal-exemplar-library`** — When output is rejected or a template cannot be found, search
   the firm's own library for a real exemplar and retry with evidence rather than stopping.
+- **`lal-adversarial-verification-rules`** — Data-bearing output (party data, dollar figures,
+  dates, case numbers) headed to a filing, affidavit, discovery response, GAL report, or
+  client deliverable gets an independent, blind second-pass re-derivation from source before
+  it is presented as done — supplements, never replaces, the existing QC gates.
 
 ## Requirements
 

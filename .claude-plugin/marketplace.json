@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Legal Authority Lab — Florida family law skill suites. Core Foundation ships with every package; each numbered suite is a separately purchased plugin.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "lal-core-foundation",
       "source": "./00-core-foundation",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Core Foundation — Foundation layer every suite depends on: installer, file connector, start-case, command center, brand kit, correspondence, caselaw protocol, help, file organizer, judicial procedures, Florida ethics. Florida family law. Built inside a real, active family law firm."
     },
     {
